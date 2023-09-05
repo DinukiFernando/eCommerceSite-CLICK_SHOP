@@ -151,9 +151,9 @@
 
 .grid-container-4{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: 300px 300px 300px 300px;
-    
+    justify-content: center;
     gap: 50px;
 }
 .product-2{
@@ -185,4 +185,51 @@
 .img-1{
     width: 214px;
     height: 214px;
+}
+
+#img-2{
+    width: 500px;
+    height: 500px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-5{
+    text-align: center;
+font: normal normal 600 18px/32px Poppins;
+letter-spacing: -0.33px;
+color: #111111;
+margin-left: 10px;
+}
+
+#text-6{
+    font: normal normal Poppins;
+    letter-spacing: -0.33px;
+    color: #111111;
+    margin-left: 10px;
+    font-size: 29px;
+}
+
+#text-7{
+    font: normal normal normal 14px/32px Roboto;
+    letter-spacing: -0.25px;
+    color: #7A7A7A;
+}
+
+
+.rectangle-1{
+    background-color: #FFFFFF; /* Adjust the color as needed */
+    color: #FF4F04;
+    padding: 10px;
+    border-radius: 17px;
+    font-weight: bold;
+    width: 56px;
+    height: 20px;
+    opacity: 1;
+    align-items: center;
+    text-align: center;
+    margin-top: 11px;
+    margin-right: 10px;
 }
