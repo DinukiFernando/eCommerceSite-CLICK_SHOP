@@ -98,6 +98,49 @@
     opacity: 0.92;
     text-align: center;
 }
+#img-3{
+    width: 1270px;
+    height: 560px;
+}
+.img-btns{
+   margin-top: -200px;
+   padding-bottom: 150px;
+   margin-left: 140px;
+}
+#img-btn-1{
+    width: 137px;
+    height: 50px;
+    background: #FF4F04 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    height: 50px;
+    border-radius: 5px;
+    opacity: 1;
+    background-image: url(Assets/Icon.png) ;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center ;
+    margin-top: 12px;
+    background-position: 105px;
+    text-align: center;
+    font: normal normal medium 16px/24px Heebo;
+    letter-spacing: -0.36px;
+    color: #FFFFFF;
+}
+#img-btn-2 {
+    width: 224px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.15); /* Use RGBA for the background color */
+    border-radius: 5px;
+}
+
+#img-btn-1-text {
+    text-align: center;
+    font: normal normal medium 16px/24px Heebo;
+    letter-spacing: -0.36px;
+    color: white;
+    opacity: 1;
+}
 
 .grid-container-1{
     top: 768px;
@@ -207,6 +250,8 @@
     font: normal normal medium 16px/21px Roboto;
     letter-spacing: -0.36px;
     color: #302F2F;
+    opacity: 1;
+    font-weight: bold;
 }
 
 .box-1{
@@ -338,7 +383,7 @@
     border-radius: 17px;
     font-weight: bold;
     width: 56px;
-    height: 20px;
+    height: 15px;
     opacity: 1;
     align-items: center;
     text-align: center;
