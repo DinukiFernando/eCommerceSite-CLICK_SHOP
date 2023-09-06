@@ -84,8 +84,12 @@
     align-items: center;
 }
 
-#btn-1{
-    margin-top: 300px;
+#layer-2{
+    margin-top: 300px; ;
+}
+
+.btn-1{
+    /* margin-top: 300px; */
     margin-left: 40%;
     width: 224px;
     height: 56px;
@@ -97,7 +101,7 @@
 }
 
 
-#text-3{
+.text-3{
     text-align: center;
     font: normal normal medium 16px/21px Roboto;
     letter-spacing: -0.36px;
@@ -150,9 +154,10 @@
 }
 
 .grid-container-4{
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 250px 250px 250px  250px;
+    grid-template-rows: 300px 300px   ;
     justify-content: center;
     gap: 50px;
 }
@@ -194,28 +199,32 @@
 .row{
     display: flex;
     justify-content: space-between;
+   
 }
 
 .text-5{
     text-align: center;
-font: normal normal 600 18px/32px Poppins;
-letter-spacing: -0.33px;
-color: #111111;
-margin-left: 10px;
+    font: normal normal 600 18px/32px Poppins;
+    letter-spacing: -0.33px;
+    color: #111111;
+    margin-left: 10px;
 }
 
 #text-6{
     font: normal normal Poppins;
     letter-spacing: -0.33px;
     color: #111111;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 29px;
+    margin-top: -40px;
 }
 
 #text-7{
     font: normal normal normal 14px/32px Roboto;
     letter-spacing: -0.25px;
     color: #7A7A7A;
+    margin-top: -25px;
+    margin-left: 20px;
 }
 
 
@@ -232,4 +241,72 @@ margin-left: 10px;
     text-align: center;
     margin-top: 11px;
     margin-right: 10px;
+}
+#row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+#btn-3{
+    background: #111111 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    color: #FFFFFF;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+#layer-3{
+    margin-top: 100px;
+}
+
+.grid-container-5{
+    margin-top: 50px;
+    display: grid;
+    
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 300px 300px   ;
+    justify-content: center;
+    gap: 44px;
+}
+.product-3{
+    background-color: #FFFFFF ;
+    justify-content: center;
+    align-items: center;
+}
+
+#Shoes-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+#Shoes-2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#Shoes-3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+#Shoes-4{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+#Shoes-5{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+#Shoes-6{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#Shoes-7{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+#Shoes-8{
+    grid-row: 2/3;
+    grid-column: 4/5;
 }
