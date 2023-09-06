@@ -315,3 +315,20 @@
     grid-row: 2/3;
     grid-column: 4/5;
 }
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-top: 40px;
+
+}
+.about-us ul li{
+    list-style-type: none;
+    text-align: left;
+    font: normal normal normal 14px/26px Roboto;
+    letter-spacing: -0.17px;
+}
+.about-us h5{
+    margin-left: 40px;
+}
