@@ -45,11 +45,15 @@
     list-style-type: none;
     gap: 70px;
 }
+.menu-bar select{
+    justify-content: left;
+    
+}
 #nav-bar{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 100px;
+    gap: 70px;
 }
 #nav-bar  li{
     justify-content: space-evenly;
@@ -65,13 +69,36 @@
     opacity: 0.92;
     text-decoration: none;
 }
+#nav-bar  li a:hover {
+    color: #FF4F04;
+}
+
 #categories{
     width: 197px;
-    height: 44px;
+    height: 40px;
     background: #F8F8F8 0% 0% no-repeat padding-box;
     border: 1px solid #EFEFEF;
     opacity: 1;
+    background-image: url(Assets/path@2x.png) ;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 12px;
+    background-position: 10px;
 }
+#option1{
+    top: 133px;
+    left: 127px;
+    width: 87px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 14px/32px Roboto;
+    letter-spacing: 0px;
+    color: #302F2F;
+    opacity: 0.92;
+    text-align: center;
+}
+
 .grid-container-1{
     top: 768px;
     left: 0px;
