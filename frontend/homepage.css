@@ -65,6 +65,7 @@
     text-transform: uppercase;
     opacity: 1;
     display: inline;
+    font-family: Poppins;
 
 }
 .text-2{
@@ -73,6 +74,7 @@
     height: 35px;
     text-align: center;
     font: normal normal 600 25px/56px Poppins;
+    font-family: Poppins;
     letter-spacing: -1.2px;
     color: #111111;
     text-transform: uppercase;
@@ -253,6 +255,7 @@
 
 #text-6{
     font: normal normal Poppins;
+    font-family: Poppins;
     letter-spacing: -0.33px;
     color: #111111;
     margin-left: 20px;
@@ -368,4 +371,15 @@
 }
 .about-us h5{
     margin-left: 40px;
+    width: 160px;
+    height: 20px;
+    text-align: left;
+    font: normal normal 600 14px/22px Poppins;
+    letter-spacing: -0.35px;
+    color: #302F2F;
+    opacity: 1;
+}
+
+.para{
+    font: normal normal normal 16px/26px Roboto;
 }
