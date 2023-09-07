@@ -11,24 +11,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <title>eCommerce Site</title>
 </head>
 <body>
     
-    <div class="container">
-        <div class="top-layer">
+    <div class="main-container">
+
+        <div class="top-bar">
+
             <img src="Assets/Asset 3@2x-8.png">
             <input type="text" id="search" placeholder="  Search For Products, Brands & Categories">
- 
             <div class="icons">
                 <img src="Assets/6f0a18fad030e38fc7194c6a4c334793.png">
+                <div id="notification">0</div>
                 <img src="Assets/674aaa8a5939fb3fb007e77121fb1581.png">
                 <img src="Assets/bdcb0c3f6d67999723518ef3c2ad5494.png">
+                <div id="notification">0</div>
             </div>
 
         </div>
+
         <hr/>
 
         <div class="menu-bar">
@@ -43,195 +47,205 @@
                 <li><a href="#">Discounts</a></li>
                 <li><a href="#">Weekly Offers</a></li>
                 <li><a href="#">Become A Vendor</a></li>
-
             </ul>
         </div>
-        <img id="img-3" src="Assets/Group 3309.png">
-        <div class="img-btns">
-            <button id="img-btn-1">Buy Now</button>
-            <button id="img-btn-2" ><span id="img-btn-1-text">With $599 with trade-in</span> </button>
+
+        <img id="hero-img" src="Assets/Group 3309.png">
+        <div class="hero-img-content">
+            <button id="shopping-btn">Buy Now</button>
+            <button id="trade-in-btn" ><span id="trade-in-btn-text">With $599 with trade-in</span> </button>
         </div>
+        <div id="space-1"></div>
        
-        <div class="grid-container-1">
-            
-            <div class="text-container-1">
-                <p class="text-1">EXPLORE AWESOME PRODUCTS</p><br>
-                <p class="text-2"><b>RECOMMENDED FOR YOU</b></p>
-            </div>
-            <div >
-                <div class="grid-container-3">
+        <div class="container-1">
+            <p class="two-line-text-1">EXPLORE AWESOME PRODUCTS</p><br>
+            <p class="two-line-text-2"><b>RECOMMENDED FOR YOU</b></p>
 
-                    <div class="product">
+            <div class="container-2">
+                    <div class="product-set-1">
                         <img src="Assets/Base@2x.png" width="270px" height="270px">
                         <p class="product-name">Single Tour</p>
-                        <div class="rectangle">$990</div>
+                        <div class="product-price-orange-shape">$990</div>
                     </div>
 
-                    <div class="product">
+                    <div class="product-set-1">
                         <img src="Assets/Base@2xX.png" width="270px" height="270px">
                         <p class="product-name">Single Tour</p>
-                        <div class="rectangle">$990</div>
+                        <div class="product-price-orange-shape">$990</div>
                     </div>
 
-                    <div class="product">
+                    <div class="product-set-1">
                         <img src="Assets/Base@2x.png" width="270px" height="270px">
                         <p class="product-name">Single Tour</p>
-                        <div class="rectangle">$990</div>
+                        <div class="product-price-orange-shape">$990</div>
                     </div>
 
-                    <div class="product">
+                    <div class="product-set-1">
                         <img src="Assets/Base@2xX.png" width="270px" height="270px">
                         <p class="product-name">Single Tour</p>
-                        <div class="rectangle">$990</div>
+                        <div class="product-price-orange-shape">$990</div>
                     </div>
-
-                </div>
-                
 
             </div>
         </div>
+
+        <div id="space-2"></div>
         
-        <button id="layer-2" class="btn-1"><p class="text-3">Explore Other Products</p></button>
-        <div class="box-1">
-            
-            <p id="text-4">Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide</p>
-            <button id="btn-2"><b>Start Shopping</b></button>
-        </div>
-        <div class="text-container-2">
-            <p class="text-1">STRAIGHT FROM NIKE</p><br>
-            <p class="text-2"><b>NEW COLLECTION</b></p>
-        </div>
-        <div class="grid-container-4">
+        <button class="explore-btn"><p class="text-3">Explore Other Products</p></button>
 
-            <div class="product-2" id="item-1">
-                <img class="img-1" src="Assets/Image@2x.png" >
-                <div class="row">
-                    <p class="text-5">Nike Air Force 1</p>
-                <div class="rectangle-1">$99</div>
+            <div class="image-container">
+                <img class="test-image" src="Assets/Rectangle.png" >
+                <p class="text-overlay"  id="image-container-text">
+                    Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide   
+                </p>
+                <button class="btn-overlay" id="image-container-btn"><b>Start Shopping</b></button>                
+            </div>
+
+        <div class="second-text-layer">
+            <p class="two-line-text-1">STRAIGHT FROM NIKE</p><br>
+            <p class="two-line-text-2"><b>NEW COLLECTION</b></p>
+        </div>
+
+        <div class="container-3">
+
+            <div class="product-set-2" id="item-1">
+                <img class="product-image" src="Assets/Image@2x.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Air Force 1</p>
+                    <div class="nike-air-shoe-price">$99</div>
                 </div>  
             </div>
 
-            <div class="product-2" id="item-2">
-                <img class="img-1" src="Assets/Image@2x5.png" >
-                <div class="row">
-                    <p class="text-5">Nike Air Force 1</p>
-                    <div class="rectangle-1">$99</div>
+            <div class="product-set-2" id="item-2">
+                <img class="product-image" src="Assets/Image@2x5.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Air Force 1</p>
+                    <div class="nike-air-shoe-price">$99</div>
                 </div>
             </div>
 
-            <div class="product-2" id="item-3">
-                <img class="img-1" src="Assets/Image@2x4.png" >
-                <div class="row">
-                    <p class="text-5">Nike Air Force 1</p>
-                    <div class="rectangle-1">$99</div>
+            <div class="product-set-2" id="item-3">
+                <img class="product-image" src="Assets/Image@2x4.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Air Force 1</p>
+                    <div class="nike-air-shoe-price">$99</div>
                 </div>
             </div>
 
-            <div class="product-2" id="item-4">
-                <img class="img-1" src="Assets/Image@2x3.png" >
-                <div class="row">
-                    <p class="text-5">Nike Air Force 1</p>
-                    <div class="rectangle-1">$99</div>
+            <div class="product-set-2" id="item-4">
+                <img class="product-image" src="Assets/Image@2x3.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Air Force 1</p>
+                    <div class="nike-air-shoe-price">$99</div>
                 </div>
             </div>
 
-            <div class="product-2" id="item-5">
-                <div id="row-2">
-                    <button id="btn-3">SALE -50%</button>
-                    <div class="rectangle-1">$99</div>
+            <div class="product-set-2" id="item-5">
+                <div id="product-name-price-2">
+                    <button id="sale-btn">SALE -50%</button>
+                    <div class="nike-air-shoe-price">$99</div>
                 </div>
-                <img id="img-2" src="Assets/Image@2x2.png" >
-                <p id="text-6"><b>Nike Air Force 1</b></p>
-                <p id="text-7">Brand: Nike</p>
+                <img id="large-product-image" src="Assets/Image@2x2.png" >
+                <p id="nike-air-large-shoe-name"><b>Nike Air Force 1</b></p>
+                <p id="brand-name">Brand: Nike</p>
          
             </div>
         </div>
+
+        <div id="space-3"></div>
        
-        <button id="layer-3" class="btn-1"><p class="text-3">Explore Other Products</p></button>
-        <div class="box-1">
-            
-            <p id="text-4">Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide</p>
-            <button id="btn-2"><b>Start Shopping</b></button>
-        </div>
-        <div class="text-container-2">
-            <p class="text-1">TOP PRODUCTS</p><br>
-            <p class="text-2"><b>TRENDING THIS WEEK</b></p>
-        </div>
-
-        <div class="grid-container-5">
-            <div class="product-3" id="Shoes-1">
-                <img class="img-1" src="Assets/Image@2x5.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-2">
-                <img class="img-1" src="Assets/Image@2x.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-3">
-                <img class="img-1" src="Assets/Image@2x4.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-4">
-                <img class="img-1" src="Assets/Image@2x3.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-5">
-                <img class="img-1" src="Assets/Image@2x5.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-6">
-                <img class="img-1" src="Assets/Image@2x.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-7">
-                <img class="img-1" src="Assets/Image@2x4.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
-
-            <div class="product-3" id="Shoes-8">
-                <img class="img-1" src="Assets/Image@2x3.png" >
-                <div class="row">
-                    <p class="text-5">Nike Court Air</p>
-                <div class="rectangle">$58</div>
-                </div>  
-            </div>
+        <button  class="explore-btn"><p class="text-3">Explore Other Products</p></button>
+        
+        <div class="image-container">
+            <img class="test-image" src="Assets/Rectangle.png" >
+            <p class="text-overlay"  id="image-container-text">
+                Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide   
+            </p>
+            <button class="btn-overlay" id="image-container-btn"><b>Start Shopping</b></button>                
         </div>
 
-        <div class="box-1">
-            <p id="text-4">Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide</p>
-            <button id="btn-2"><b>Start Shopping</b></button>
+        <div class="second-text-layer">
+            <p class="two-line-text-1">TOP PRODUCTS</p><br>
+            <p class="two-line-text-2"><b>TRENDING THIS WEEK</b></p>
         </div>
 
-        <div class="about-us">
+        <div class="container-4">
+            <div class="product-set-3" id="Shoes-1">
+                <img class="product-image" src="Assets/Image@2x5.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
 
-            <div class="para">
+            <div class="product-set-3" id="Shoes-2">
+                <img class="product-image" src="Assets/Image@2x.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-3">
+                <img class="product-image" src="Assets/Image@2x4.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-4">
+                <img class="product-image" src="Assets/Image@2x3.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-5">
+                <img class="product-image" src="Assets/Image@2x5.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-6">
+                <img class="product-image" src="Assets/Image@2x.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-7">
+                <img class="product-image" src="Assets/Image@2x4.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+
+            <div class="product-set-3" id="Shoes-8">
+                <img class="product-image" src="Assets/Image@2x3.png" >
+                <div class="product-name-price">
+                    <p class="nike-shoe-name">Nike Court Air</p>
+                    <div class="product-price-orange-shape">$58</div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img class="test-image" src="Assets/Rectangle.png" >
+            <p class="text-overlay"  id="image-container-text">
+                Sneakers Never Run Out Of Style<br> Get 50% Off Sitewide   
+            </p>
+            <button class="btn-overlay" id="image-container-btn"><b>Start Shopping</b></button>                
+        </div>
+
+        <div class="footer">
+
+            <div class="about-us">
                 <img src="Assets/Asset 3@2x-8.png">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut.</p>
             </div>
