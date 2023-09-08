@@ -103,12 +103,14 @@
     height: 560px;
 }
 .hero-img-content{
-   margin-left: 10%; 
    position: relative;
-   margin-top: -15%;
-   display: flex;
-   justify-content: left;
-   gap: 30px;
+}
+.hero-img-btns{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    display: flex;
+    gap: 30px;
 }
 #shopping-btn{
     width: 137px;
@@ -116,7 +118,6 @@
     background: #FF4F04 0% 0% no-repeat padding-box;
     border-radius: 5px;
     opacity: 1;
-    /* position: absolute; */
     background-image: url(Assets/Icon.png) ;
     background-size: 20px 20px;
     background-repeat: no-repeat;
