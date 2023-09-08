@@ -1,6 +1,9 @@
 
 .main-container{
     justify-content: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-bar{
@@ -499,3 +502,9 @@
     margin-left: -35px;
     text-align: center;
 }
+
+/* #upwarding-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+} */
