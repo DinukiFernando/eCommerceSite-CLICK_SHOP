@@ -104,7 +104,7 @@
 }
 .hero-img-content{
    margin-left: 10%; 
-   position: absolute;
+   position: relative;
    margin-top: -15%;
    display: flex;
    justify-content: left;
